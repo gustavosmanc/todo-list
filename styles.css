@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background: #551a8b;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.container {
+  max-width: 400px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+input[type='text'],
+input[type='text']:focus {
+  color: #fff;
+  border: none;
+  background: rgba(1, 1, 1, 0.2);
+  max-width: 400px;
+  border: 2px solid #222;
+}
+
+input[type='text']:focus {
+  box-shadow: none;
+}
+
+.todos li {
+  color: #222;
+  background: #eee8f3;
+}
+
+.delete,
+.state {
+  cursor: pointer;
+}
+
+.done {
+  background: #ccffcc !important;
+}
+
+.in-progress {
+  background: #ffedcc !important;
+}
+
+.to-do {
+  background: #ffcccc !important;
+}
+
+.filtered {
+  display: none !important;
+}
